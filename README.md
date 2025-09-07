@@ -2,9 +2,7 @@
 
 This can be used to generate concave triangles and download them as svg files.
 
-You can use the app [here](trimagnetix.github.io/triangle-generator).
-
-![screenshot](img/screenshot.png)
+You can use the app [here](https://trimagnetix.github.io/triangle-generator).
 
 ## Running Locally
 
@@ -14,3 +12,5 @@ Something like this should work:
 ```
 python3 -m http.server -d .
 ```
+
+![screenshot](img/screenshot.png)
