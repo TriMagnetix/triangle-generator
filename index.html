@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<meta lang="en" />
+		<link rel="stylesheet" type="text/css" href="css/index.css" />
+		<title>Triangle Builder</title>
+	</head>
+	<body>
+		<div id="params">
+			<div class="inputs">
+				<div class="input-group">
+					<label>Width</label>
+					<input type="number" id="width" value="200" />
+				</div>
+				<div class="input-group">
+					<label>Vertex Radius</label>
+					<input type="number" id="vertex-radius" value="10" />
+				</div>
+				<div class="input-group">
+					<label>Side Radius</label>
+					<input type="number" id="side-radius" value="50" />
+				</div>
+				<div class="input-group">
+					<label>Extrusion</label>
+					<input type="number" id="extrusion" value="70" />
+				</div>
+			</div>
+			<button id="download">Download</button>
+		</div>
+		<div id="render"></div>
+	</body>
+	<script type="module" src="js/index.js"></script>
+</html>
